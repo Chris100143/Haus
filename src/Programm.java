@@ -32,7 +32,9 @@ public class Programm {
         //Schrank erstellen
         Schrank schrank1 = new Schrank(3,1,2,500,"China","Holz");
 
+
         //Ausstattung ausgeben
         System.out.println("Die Person " + person1.toString() + " hat folgende Ausstattung: " + "\n\t" + "Laptop: " + laptop1.toString() + "\n\t" + "Schrank: " + schrank1.toString() + "\n\t" + "Auto: " + auto1.toString() + "\n\t" + "Haus: " + haus1.toString());
+
     }
 }
